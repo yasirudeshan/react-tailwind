@@ -3,6 +3,9 @@ import './App.css';
 import Analytics from './Components/Analytics';
 import Hero from './Components/Hero';
 import Navbar from './Components/Navbar';
+import Newsletter from './Components/Newsletter';
+import Cards from './Components/Cards'
+import Footer from '../src/Components/Footer'
 
 function App() {
   return (
@@ -10,6 +13,11 @@ function App() {
       <Navbar/>
       <Hero />
       <Analytics />
+      <Newsletter />
+      <Cards />
+      <Footer />
+
+    
     </div>
   );
 }
